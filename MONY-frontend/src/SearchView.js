@@ -15,7 +15,6 @@ class SearchView extends Component {
   render() {
     return (
       <div className="search-view">
-        {/* <p>searchviewcontainter</p> */}
         <SearchPanel/>
         <ArticleList />
         <hr/>
@@ -23,18 +22,7 @@ class SearchView extends Component {
       </div>
     );
   }
-
 }
 
-// const mapStateToProps = (state) => {
-//   return {
-//       allArticles: state.allArticles,
-//       allPlaces:state.allPlaces,
-//       searchTerm: state.searchTerm,
-//       articleArray:[]
-//   }
-// }
 
-export default
-// connect(mapStateToProps, {})
-(SearchView)
+export default (SearchView)
